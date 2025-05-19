@@ -1,10 +1,6 @@
-# ESP32-Marauder-Double-Barrel
-The ESP32 Marauder Double Barrel includes two ESP32 chipsets, GPS, Sub-GHz (433 MHz) and onboard battery. It works with Flipper Zero or be used as a standalone device. 
+# ESP32 Marauder - Double Barrel User Manual
 
-
-
-# ESP32 Marauder Unit Pocket Unit with GPS - Slim Jim Version
-Update: 28 Feb 2025 by John @ Honey Honey Team
+Update: 20 May 2025 by John @ Honey Honey Team
 
 ![Alt text](Assets/images/Front.Main.jpg)
 ![Alt text](Assets/images/Front1.jpg)
@@ -16,16 +12,29 @@ Update: 28 Feb 2025 by John @ Honey Honey Team
 <br/>
 
 
-## What is ESP32 Marauder Pocket Unit with GPS – Slim Jim Version ? 
+## What is ESP32 Marauder - Double Barrel ? 
 
-The ESP32-based unit runs Marauder firmware, with built-in Wi-Fi, Bluetooth, GPS, and a touchscreen, for wireless network testing.  
+This is our latest interpretation of the ESP32 Marauder. In technical term, the Double Barrel includes two ESP32 chipsets, GPS, Sub-GHz chipset (433 MHz), and many other features. It can be used with the Flipper Zero or as a standalone device. 
+
+Double Barrel refer to the fact that the device runs two standalone Marauder simultaneously. The first set of Marauder comes with 2.8 inch screen, onboard 800mAh battery, GPS, Micro SD card slot, while the second set of Marauder is connected and controlled by Flipper Zero.  In another word, we basically combine our Marauder Slim Jim with our Flipper Zero 3in1 Wifi board. 
+
+What is the benefit(s) of runing double Marauder, you may ask. You see, Marauder is a set of toolkit wit many functionality, but it can only run one application / funcation at a time. But what if you would like to deauth a network while deploying an Evil Portal? That is exactly the time the Double Barrel becomes handy.
 
 <br/>
 
-## Specification of the ESP32 Marauder Slim Jim
+## Specification of the ESP32 Marauder Double Barrel
 
-- Latest Marauder Firmware pre-loaded.
-- 2.8 inch touchscreen.
+- Dual ESP32 Chipsets with Dual Antennas: Dual Marauders can function simultaneously.
+  - The first Marauder comes with:
+			- ESP32 chipset with an external antenna,
+			- A 2.8-inch touch screen,
+		  - An 800mAh embedded battery, 
+		  - Onboard GPS access
+		  - Micro SD card slot, for updating firmware and data storage
+		  - 4pin GPIO (3.3V/Tx/Rx/Gnd)
+		  - This part of the device can funcation as a standalone device (i.e., you can use it without Flipper Zero).
+      - The hardware version of this marauder is V6
+      - 
 - Embedded GPS module, support WiFi WarDrive
 - Bluetooth, Support Bluetooth WarDrive
 - Dual antenna SMA connectors for WIFI and GPS
