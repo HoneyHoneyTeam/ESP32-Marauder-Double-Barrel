@@ -26,14 +26,13 @@ What is the benefit(s) of runing double Marauder, you may ask. You see, Marauder
 
 - Dual ESP32 Chipsets with Dual Antennas: Dual Marauders can function simultaneously.
   - The first Marauder comes with:
-			- ESP32 chipset with an external antenna,
-			- A 2.8-inch touch screen,
-		  - An 800mAh embedded battery, 
-		  - Onboard GPS access
-		  - Micro SD card slot, for updating firmware and data storage
-		  - 4pin GPIO (3.3V/Tx/Rx/Gnd)
-		  - This part of the device can funcation as a standalone device (i.e., you can use it without Flipper Zero).
-      - The hardware version of this marauder is V6
+	- ESP32 chipset with an external antenna,
+	- A 2.8-inch touch screen,
+	- An 800mAh embedded battery, 
+	- Onboard GPS access
+	- Micro SD card slot, for updating firmware and data storage
+	- 4pin GPIO (3.3V/Tx/Rx/Gnd)
+	- This part of the device can funcation as a standalone device (i.e., you can use it without Flipper Zero).  - The hardware version of this marauder is V6
       - 
 - Embedded GPS module, support WiFi WarDrive
 - Bluetooth, Support Bluetooth WarDrive
