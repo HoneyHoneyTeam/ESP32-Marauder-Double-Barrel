@@ -24,9 +24,8 @@ What is the benefit(s) of runing double Marauder, you may ask. You see, Marauder
 
 ## Specification of the ESP32 Marauder Double Barrel
 
-- Dual ESP32 Chipsets with Dual Antennas: Dual Marauders can function simultaneously.
-  
-  **- The first Marauder comes with:**
+
+- **The first Marauder comes with:**
 	- ESP32 chipset with an external antenna,
 	- A 2.8-inch touch screen,
 	- An 800mAh embedded battery, 
@@ -35,13 +34,13 @@ What is the benefit(s) of runing double Marauder, you may ask. You see, Marauder
 	- 4pin GPIO (3.3V/Tx/Rx/Gnd)
   	- This part of the device can funcation as a standalone device (i.e., you can use it without Flipper Zero).
    	- The hardware version of this marauder is V6
-  
- **- The second Marauder is controlled by the Flipper Zero, it comes with**
+
+- **The second Marauder is controlled by the Flipper Zero, it comes with:**
   	- ESP32-S2 chipset with an external antenna
    	- Onboard GPS access
-    	- Firmware updatea via Flipper or USBC on the left
+   	- Firmware updatea via Flipper or USBC on the left
 
- **- Others:**
+- **Others:**
 	- Dual USB-C Ports for charging (top) and firmware updates (left).
 	- CC1101 Chipset(433 MHz), supporting up to 10 dB output per antenna.
 	- GPS Chipset. GPS data is accessible to both Marauders.
