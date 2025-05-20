@@ -93,7 +93,7 @@ All our products are thoroughly checked and configured prior to shipping. While 
 	5. For testing purpose, Go to **Apps** -> **GPIO** -> **[NMEA]GPS**.
 	6. Acquiring a GPS signal might take up to a minute. The exact time depends on your location and how open or obstructed the sky is.
 
-
+![Alt text](Assets/images/Front.Main.jpg)
 
 <br/>
 
@@ -126,17 +126,21 @@ To flash / update the Marauder onto the 2nd Marauder, we suggest using **Google 
 
 There are two buttons located at the back of the Double Barrel: the middle one is the Boot button for 1st Marauder with the screen, and the one closer to the side is the Boot button of 2nd Marauder. 
 
-1. Open the Web Flasher called < FzeeFlasher > [https://fzeeflasher.com/](https://fzeeflasher.com).
+1. Open the Web Flasher called < ESPWebTool > [https://esp.huhn.me/](https://esp.huhn.me).
    
 2. Insert the metal stylus and hold the boot buttom of 2nd Marauder / the one close to the side, then connect the USB-C cable to the double barrel. In this way, the board launch into Bootloader mode rather than starting up normally
 
-5. Then, On https://fzeeflasher.com/, go to [ **Connect** ]. In the pop-up window, select [ **USB Serial (ComXxX) - Paired** ], which usually has only one serial for most users. Then, click [ **Connect** ].
+5. Then, On https://esp.huhn.me/, go to [ **Connect** ]. In the pop-up window, select [ **USB Serial (ComXxX) - Paired** ], which usually has only one serial for most users. Then, click [ **Connect** ].
+   
+6. Then Go to the following [Marauder Github](https://github.com/justcallmekoko/ESP32Marauder/wiki/update-firmware#using-spacehuhn-web-updater) and download the 4 files: Bootloader, Partitions, Boot App, Firmware <name including (_rev_feather.bin)> under the name of <Flipper Zero Wifi Dev Board>
 
-6. If everything is working correctly, the website should allow you to select the model of the board. Choose [ **ESP32-S2** ]. Then, select your preferred [ **Version** ] of Marauder and choose [ **Marauder** ] under [ **Firmware** ].
+8. Back in the [HESP.huhn.me](https://esp.huhn.me/), choose the downloaded files according to the following picture.
 
-7. Then the website should allow you to hit [ **PROGRAM** ] bottom.
+
+
+10. Then the website should allow you to hit [ **PROGRAM** ] bottom.
     
-8. In a minute then you are golden. 
+11. In a minute then you are golden. 
 
 </details>
 
