@@ -1,4 +1,4 @@
-# ESP32 Marauder - Double Barrel User Manual
+4# ESP32 Marauder - Double Barrel User Manual
 
 - Update: 20 May 2025 by John @ Honey Honey Team
 - All procedures and descriptions related to the Flipper Zero herein were validated using Momentum Firmware, version < MNTM-010 30-04-2025 >.
@@ -71,10 +71,27 @@ All our products are thoroughly checked and configured prior to shipping. While 
 	3. Select **External**."
 - The SubGhz part of the Double Barrel is fully functional even the first marauder is in OFF mode
 
-### Second Set Marauder
+### 1st Set Marauder (The one with 2.8inch Touch Screen)
 
+- No initial setup is required
+- Turn ON or OFF via the switch located on the right side of the Double Barrel / (labeled <**D**>) 
 
+### 2nd Set Marauder
+- The second set Marauder of the Double Barrel utilise UART 15 and 16 for communicating with Flipper, hence it is necessary to switch from the default 13 & 14 GPIO to 15 & 16
+	1. On your Flipper Zero, navigate to the main menu.
+	2. Go to: **Momentum** -> **Protocols** -> **GPIO Pins** -> **ESP32/8266 UART**.
+	3. Select **Extra 15, 16**."
 
+### GPS
+- To use the GPS function on the Flipper Zero, please see the steps below.
+  	1. Set the **bottom switch** on the left side of the Double Barrel (labeled <**C**>) to the **DOWN** position.
+		- UP position: GPS is powered by the Double Barrel's onboard 800mAh battery.
+  		- DOWN position: GPS is powered by the Flipper Zero's battery.
+  	2. On your Flipper Zero, navigate to the main menu.
+	3. Go to: **Momentum** -> **Protocols** -> **GPIO Pins** -> **NWEA GPS UART**.
+	4. Select **Default 13, 14**."
+	5. For testing purpose, Go to **Apps** -> **GPIO** -> **[NMEA]GPS**.
+	6. Acquiring a GPS signal might take up to a minute. The exact time depends on your location and how open or obstructed the sky is.
 
 
 
@@ -85,8 +102,9 @@ All our products are thoroughly checked and configured prior to shipping. While 
 <summary> Click the Triangle for more details   </summary>
 
 <br/>
+### 1st Set Marauder (The one with 2.8inch Touch Screen)
 
-1. Take the Micro SD card from the Marauder Unit and connect to an PC / Laptop / Mac / whatever
+1. Take the Micro SD card from the Double Barrel and connect to an PC / Laptop / Mac / whatever
 
 2. Download the **V6** firmware file, which is usual inclued < **_new_hardware.bin/_v6.bin** > in the name, from [Marauder website](https://github.com/justcallmekoko/ESP32Marauder/releases).
    
