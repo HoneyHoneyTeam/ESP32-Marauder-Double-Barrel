@@ -1,6 +1,7 @@
 # ESP32 Marauder - Double Barrel User Manual
 
-Update: 20 May 2025 by John @ Honey Honey Team
+- Update: 20 May 2025 by John @ Honey Honey Team
+- All procedures and descriptions related to the Flipper Zero herein were validated using Momentum Firmware, version < MNTM-010 30-04-2025 >.
 
 ![Alt text](Assets/images/Front.Main.jpg)
 ![Alt text](Assets/images/Front1.jpg)
@@ -49,10 +50,6 @@ What is the benefit(s) of runing double Marauder, you may ask. You see, Marauder
 	- Full 3D-Printed Enclosure/Case is also included.
 
 
-
-
-
-
 <br/>
 
 ## What are the differences between our Marauder Units. 
@@ -62,8 +59,24 @@ What is the benefit(s) of runing double Marauder, you may ask. You see, Marauder
 <br/>
 
   
-## How the board operate 
-- The Unit has been setup fully before postage. Just connect both antennas and enjoy. 
+## Pre-flight Check / Settings 
+
+All our products are thoroughly checked and configured prior to shipping. While most of our products are plug-and-play, a few specific settings need to be adjusted on your Flipper Zero to ensure proper communication with the Double Barrel.
+
+### SubGhz <433mhz>
+- **No initial setup is required for SubGhz chipset detection**. The Flipper Zero automatically recognizes an external SubGhz chipset when it connect to The Double Barrel. 
+- To confirm if the Flipper Zero is using the external SubGhz chipset, or to switch to it manually:
+	1. On your Flipper Zero, navigate to the main menu.
+	2. Go to: **Sub-Ghz** -> **Radio Settings** -> **Module**.
+	3. Select **External**."
+- The SubGhz part of the Double Barrel is fully functional even the first marauder is in OFF mode
+
+### Second Set Marauder
+
+
+
+
+
 
 <br/>
 
