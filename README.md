@@ -70,18 +70,18 @@ All our products are thoroughly checked and configured prior to shipping. While 
 	2. Go to: **Sub-Ghz** -> **Radio Settings** -> **Module**.
 	3. Select **External**."
 - The SubGhz part of the Double Barrel is fully functional even the first marauder is in OFF mode
-
+<br/>
 ### 1st Set Marauder (The one with 2.8inch Touch Screen)
 
 - No initial setup is required
 - Turn ON or OFF via the switch located on the right side of the Double Barrel / (labeled <**D**>) 
-
+<br/>
 ### 2nd Set Marauder
 - The second set Marauder of the Double Barrel utilise UART 15 and 16 for communicating with Flipper, hence it is necessary to switch from the default 13 & 14 GPIO to 15 & 16
 	1. On your Flipper Zero, navigate to the main menu.
 	2. Go to: **Momentum** -> **Protocols** -> **GPIO Pins** -> **ESP32/8266 UART**.
 	3. Select **Extra 15, 16**."
-
+<br/>
 ### GPS
 - To use the GPS function on the Flipper Zero, please see the steps below.
   	1. Set the **bottom switch** on the left side of the Double Barrel (labeled <**C**>) to the **DOWN** position.
@@ -136,11 +136,18 @@ On the back of the Double Barrel, you will find two boot buttons:
 	- While still holding the boot button, connect the USB-C cable to the Double Barrel.
 	- The board will then launch into Bootloader mode instead of starting up normally. You can now release the boot button.
 
-3. Then, On https://esp.huhn.me/, go to [ **Connect** ]. In the pop-up window, select [ **USB Serial (ComXxX) - Paired** ], which usually has only one serial for most users. Then, click [ **Connect** ].
+3. Then, navigate to https://esp.huhn.me/,
+	- On the webpage, click the [ Connect ] button.
+ 	- A pop-up window will appear, select the option similar to [ **USB Serial (ComXxX) - Paired** ]
+  	- Then, click [ **Connect** ] button within the pop-up window.
    
-4. Then Go to the following [Marauder Github](https://github.com/justcallmekoko/ESP32Marauder/wiki/update-firmware#using-spacehuhn-web-updater) and download the 4 files: Bootloader, Partitions, Boot App, Firmware <name including (_rev_feather.bin)> under the name of <Flipper Zero Wifi Dev Board>
+5. Navigate to the Firmware Page:
+	- Go to the [ESP32 Marauder firmware update guide:](https://github.com/justcallmekoko/ESP32Marauder/wiki/update-firmware#using-spacehuhn-web-update). 
+	- On this page, find / search the section specifically for the "Flipper Zero Wifi Dev Board". This is crucial for getting the correct files.
+	- From the "Flipper Zero Wifi Dev Board" section, download the following four (4) files:
+	- Bootloader, Partitions, Boot App, Firmware(Look for a .bin file that specifically includes _rev_feather.bin in its name for the firmware)
 
-5. Back in the [HESP.huhn.me](https://esp.huhn.me/), choose the downloaded files according to the following picture.
+6. Return to the [HESP.huhn.me](https://esp.huhn.me/). You will now select the files you downloaded in the previous steps. Carefully match each downloaded file (Bootloader, Partitions, Boot App, and Firmware) to its correct field on the webpage, as shown in the picture below/adjacent.
 
 ![Alt text](Assets/images/ESPWebTool.png)
 
