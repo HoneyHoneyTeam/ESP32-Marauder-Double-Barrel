@@ -1,13 +1,17 @@
-4# ESP32 Marauder - Double Barrel User Manual
+# ESP32 Marauder - Double Barrel User Manual
 
-- Update: 20 May 2025 by John @ Honey Honey Team
-- All procedures and descriptions related to the Flipper Zero herein were validated using Momentum Firmware, version < MNTM-010 30-04-2025 >.
+![Alt text](Assets/images/Front.with.jpg)
+![Alt text](Assets/images/Back.with.jpg)
+![Alt text](Assets/images/left.without.jpg)
+![Alt text](Assets/images/right.without.jpg)
+![Alt text](Assets/images/front.with.no.FZ.jpg)
+![Alt text](Assets/images/front.with.laydown.jpg)
 
-![Alt text](Assets/images/Front.Main.jpg)
-![Alt text](Assets/images/Front1.jpg)
-![Alt text](Assets/images/Front2.jpg)
-![Alt text](Assets/images/Size.jpg)
-![Alt text](Assets/images/Back.jpg)
+> [!NOTE]
+> - Update: 20 May 2025 by John @ Honey Honey Team
+> - All procedures and descriptions related to the Flipper Zero herein were validated using Momentum Firmware, version < MNTM-010 30-04-2025 >.
+
+
 
 
 <br/>
@@ -122,7 +126,7 @@ All our products are thoroughly checked and configured prior to shipping. While 
 
 
 
-### 2nd set Marauder
+### 2nd Set Marauder
 
 
 > To flash / update the Marauder onto the 2nd Marauder, we suggest using **Google Chrome**.
@@ -136,18 +140,18 @@ All our products are thoroughly checked and configured prior to shipping. While 
    
 2. To start the 2nd Marauder in Bootloader mode:
 
-	- Use the metal stylus to press and hold the boot button for the 2nd Marauder (this is the button closer to the side/edge of the Double Barrel).
-	- While still holding the boot button, connect the USB-C cable to the Double Barrel.
+	- Use the metal stylus to **press and hold the boot button** for the 2nd Marauder (this is the button closer to the side/edge of the Double Barrel).
+	- While still **holding the boot button, connect the USB-C cable** to the Double Barrel.
 	- The board will then launch into Bootloader mode instead of starting up normally. You can now release the boot button.
 
 3. Then, navigate to https://esp.huhn.me/,
-	- On the webpage, click the [ Connect ] button.
+	- On the webpage, click the [ **Connect** ] button.
  	- A pop-up window will appear, select the option similar to [ **USB Serial (ComXxX) - Paired** ]
   	- Then, click [ **Connect** ] button within the pop-up window.
    
 4. Navigate to the Firmware Page:
 	- Go to the [ESP32 Marauder firmware update guide:](https://github.com/justcallmekoko/ESP32Marauder/wiki/update-firmware#using-spacehuhn-web-update). 
-	- On this page, find / search the section specifically for the "Flipper Zero Wifi Dev Board". This is crucial for getting the correct files.
+	- On this page, find / search the section specifically for the "Flipper Zero Wifi Dev Board", like the following picture. This is crucial for getting the correct files.
 	- From the "Flipper Zero Wifi Dev Board" section, download the following four (4) files:
 	- Bootloader, Partitions, Boot App, Firmware(Look for a .bin file that specifically includes _rev_feather.bin in its name for the firmware)
 
