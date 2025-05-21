@@ -53,19 +53,14 @@ What is the benefit(s) of runing double Marauder, you may ask. You see, Marauder
 	- Toggle on the left for switching GPS power supply ( either by Flipper or device battery)
 	- Full 3D-Printed Enclosure/Case is also included.
 
-
 <br/>
-
-## What are the differences between our Marauder Units. 
-
-![Alt text](Assets/images/InComparison.png)
-
-<br/>
-
   
-## Pre-flight Check / Settings 
+## Pre-flight Check / Settings Before First Use 
 
-All our products are thoroughly checked and configured prior to shipping. While most of our products are plug-and-play, a few specific settings need to be adjusted on your Flipper Zero to ensure proper communication with the Double Barrel.
+> [!NOTE]
+> All our products are thoroughly checked and configured prior to shipping. While most of our products are plug-and-play, a few specific settings need to be adjusted on your Flipper Zero to ensure proper communication with the Double Barrel.
+
+<br/>
 
 ### SubGhz <433mhz>
 - **No initial setup is required for SubGhz chipset detection**. The Flipper Zero automatically recognizes an external SubGhz chipset when it connect to The Double Barrel. 
@@ -82,7 +77,8 @@ All our products are thoroughly checked and configured prior to shipping. While 
 
 - No initial setup is required
 - Turn ON or OFF via the switch located on the right side of the Double Barrel / (labeled <**D**>)
-  
+
+<br/>
 
 ### 2nd Set Marauder
 
@@ -91,6 +87,7 @@ All our products are thoroughly checked and configured prior to shipping. While 
 	2. Go to: **Momentum** -> **Protocols** -> **GPIO Pins** -> **ESP32/8266 UART**.
 	3. Select **Extra 15, 16**."
 
+<br/>
 
 ### GPS
 - To use the GPS function on the Flipper Zero, please see the steps below.
@@ -188,35 +185,10 @@ To all our clients who purchased items from our shop, whether from Etsy, eBay, T
 
 ## FAQ 
 
-- **What is the difference between ESP32 Marauder Pocket Unit and Flipper Zero?**
-<details>
-<summary> Click the Triangle for more details   </summary>
-
-<br/>  
-
-We get this question quite often.
-<br/>  
-
-**TL;DR** <br/>
-In short, Flipper Zero and ESP32 Marauder Pocket Units are two very different tools, but their network testing capabilities overlap because both can run the Marauder firmware. If you're heavily involved in network testing, the Marauder is the way to go. Otherwise, Flipper Zero would be a better investment.
-
-**Non-TL;DR**<br/>
-Flipper Zero is the jack of all trades but master of none. What’s fascinating about Flipper is how it combines so many functions into such a compact form factor, including SubGHz, RFID, NFC, infrared, iButton, and, most importantly, the endless possibilities for extensions/boards/modules via GPIO.
-
-Flipper itself doesn’t support Wi-Fi out of the box. However, it can extend its network testing capabilities by using extension boards via GPIO. There are quite a few Wi-Fi boards available for this purpose, including [ours](https://github.com/HoneyHoneyTeam/3in1-WIFI-MultiBoard-with-Screen). At a fundamental level, most of these boards work in a very similar way. Additionally, most of the Wi-Fi boards run the Marauder firmware, which enhances their capabilities for Wi-Fi pen-testing.
-
-As for the ESP32 Marauder Pocket Units, they are primarily focused on Wi-Fi pen-testing via Marauder firmware, just like the Wi-Fi boards for Flipper Zero. However, with a 2.8-inch screen, the Marauder Pocket Unit provides much more real-time information compared to the small screen on Flipper Zero. Plus, the Marauder Pocket Unit comes with GPS, a larger battery, Bluetooth, and more—features that Flipper lacks. As a result, it can offer up to 15% more functionality than Flipper Zero in this area.
-
-
-
-</details>
-
-<br/>
-
 ## Credibility
 - Credit of Marauder Firmware goes to <ins>@JustCallmeCoco</ins>
 
 <br/>
 
 ## Metadata / keywords / about for bots ##
-flipper zero, flipper, wifi board, marauder, network security, esp32, cc1101, nrf24, subghz, 2.4ghz, wifi, 
+flipper zero, flipper, wifi board, marauder, network security, esp32, cc1101, nrf24, subghz, 2.4ghz, wifi, GPS
