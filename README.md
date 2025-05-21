@@ -79,15 +79,15 @@ All our products are thoroughly checked and configured prior to shipping. While 
 - No initial setup is required
 - Turn ON or OFF via the switch located on the right side of the Double Barrel / (labeled <**D**>)
   
-<br/>
+
 ### 2nd Set Marauder
+
 - The second set Marauder of the Double Barrel utilise UART 15 and 16 for communicating with Flipper, hence it is necessary to switch from the default 13 & 14 GPIO to 15 & 16
 	1. On your Flipper Zero, navigate to the main menu.
 	2. Go to: **Momentum** -> **Protocols** -> **GPIO Pins** -> **ESP32/8266 UART**.
 	3. Select **Extra 15, 16**."
 
 
-<br/>
 ### GPS
 - To use the GPS function on the Flipper Zero, please see the steps below.
   	1. Set the **bottom switch** on the left side of the Double Barrel (labeled <**C**>) to the **DOWN** position.
@@ -125,14 +125,12 @@ All our products are thoroughly checked and configured prior to shipping. While 
 
 ### 2nd set Marauder
 
-<br/>
+> [!NOTE]<br/>
+> 1. To flash / update the Marauder onto the 2nd Marauder, we suggest using **Google Chrome**.<br/>
+> 2. On the back of the Double Barrel, you will find two boot buttons:
+>	- Middle Button: This is the boot button for the 1st Marauder (the one with the screen).
+>	- Side/Outer Button: This button, located closer to the edge/side of the device, is the boot button for the 2nd Marauder with ESP32-S2.
 
-To flash / update the Marauder onto the 2nd Marauder, we suggest using **Google Chrome**.  
-
-On the back of the Double Barrel, you will find two boot buttons:
-
-	- Middle Button: This is the boot button for the 1st Marauder (the one with the screen).
-	- Side/Outer Button: This button, located closer to the edge/side of the device, is the boot button for the 2nd Marauder with ESP32-S2."
 
 1. Open the Web Flasher called < ESPWebTool > [https://esp.huhn.me/](https://esp.huhn.me).
    
