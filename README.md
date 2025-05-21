@@ -106,7 +106,6 @@ All our products are thoroughly checked and configured prior to shipping. While 
 <details>
 <summary> Click the Triangle for more details   </summary>
 
-<br/>
 ### 1st Set Marauder (The one with 2.8inch Touch Screen)
 
 1. Take the Micro SD card from the Double Barrel and connect to an PC / Laptop / Mac / whatever
@@ -125,11 +124,12 @@ All our products are thoroughly checked and configured prior to shipping. While 
 
 ### 2nd set Marauder
 
-> [!NOTE]<br/>
-> 1. To flash / update the Marauder onto the 2nd Marauder, we suggest using **Google Chrome**.<br/>
-> 2. On the back of the Double Barrel, you will find two boot buttons:
->	- Middle Button: This is the boot button for the 1st Marauder (the one with the screen).
->	- Side/Outer Button: This button, located closer to the edge/side of the device, is the boot button for the 2nd Marauder with ESP32-S2.
+
+> To flash / update the Marauder onto the 2nd Marauder, we suggest using **Google Chrome**.
+
+> On the back of the Double Barrel, you will find **two boot buttons**:
+>	- **Middle Button**: This is the boot button for the 1st Marauder (the one with the screen).
+>	- **Side/Outer Button**: This button, located closer to the edge/side of the device, is the boot button for the 2nd Marauder with ESP32-S2.
 
 
 1. Open the Web Flasher called < ESPWebTool > [https://esp.huhn.me/](https://esp.huhn.me).
@@ -145,7 +145,7 @@ All our products are thoroughly checked and configured prior to shipping. While 
  	- A pop-up window will appear, select the option similar to [ **USB Serial (ComXxX) - Paired** ]
   	- Then, click [ **Connect** ] button within the pop-up window.
    
-5. Navigate to the Firmware Page:
+4. Navigate to the Firmware Page:
 	- Go to the [ESP32 Marauder firmware update guide:](https://github.com/justcallmekoko/ESP32Marauder/wiki/update-firmware#using-spacehuhn-web-update). 
 	- On this page, find / search the section specifically for the "Flipper Zero Wifi Dev Board". This is crucial for getting the correct files.
 	- From the "Flipper Zero Wifi Dev Board" section, download the following four (4) files:
@@ -153,7 +153,7 @@ All our products are thoroughly checked and configured prior to shipping. While 
 
 ![Alt text](Assets/images/FlipperZeroWiFiDevBoard.png)
 
-6. Return to the [HESP.huhn.me](https://esp.huhn.me/). You will now select the files you downloaded in the previous steps. Carefully match each downloaded file (Bootloader, Partitions, Boot App, and Firmware) to its correct field on the webpage, as shown in the picture below/adjacent.
+5. Return to the [HESP.huhn.me](https://esp.huhn.me/). You will now select the files you downloaded in the previous steps. Carefully match each downloaded file (Bootloader, Partitions, Boot App, and Firmware) to its correct field on the webpage, as shown in the picture below/adjacent.
 
 ![Alt text](Assets/images/ESPWebTool.png)
 
