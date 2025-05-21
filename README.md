@@ -70,17 +70,23 @@ All our products are thoroughly checked and configured prior to shipping. While 
 	2. Go to: **Sub-Ghz** -> **Radio Settings** -> **Module**.
 	3. Select **External**."
 - The SubGhz part of the Double Barrel is fully functional even the first marauder is in OFF mode
+
+
 <br/>
+
 ### 1st Set Marauder (The one with 2.8inch Touch Screen)
 
 - No initial setup is required
-- Turn ON or OFF via the switch located on the right side of the Double Barrel / (labeled <**D**>) 
+- Turn ON or OFF via the switch located on the right side of the Double Barrel / (labeled <**D**>)
+  
 <br/>
 ### 2nd Set Marauder
 - The second set Marauder of the Double Barrel utilise UART 15 and 16 for communicating with Flipper, hence it is necessary to switch from the default 13 & 14 GPIO to 15 & 16
 	1. On your Flipper Zero, navigate to the main menu.
 	2. Go to: **Momentum** -> **Protocols** -> **GPIO Pins** -> **ESP32/8266 UART**.
 	3. Select **Extra 15, 16**."
+
+
 <br/>
 ### GPS
 - To use the GPS function on the Flipper Zero, please see the steps below.
@@ -146,6 +152,8 @@ On the back of the Double Barrel, you will find two boot buttons:
 	- On this page, find / search the section specifically for the "Flipper Zero Wifi Dev Board". This is crucial for getting the correct files.
 	- From the "Flipper Zero Wifi Dev Board" section, download the following four (4) files:
 	- Bootloader, Partitions, Boot App, Firmware(Look for a .bin file that specifically includes _rev_feather.bin in its name for the firmware)
+
+![Alt text](Assets/images/FlipperZeroWiFiDevBoard.png)
 
 6. Return to the [HESP.huhn.me](https://esp.huhn.me/). You will now select the files you downloaded in the previous steps. Carefully match each downloaded file (Bootloader, Partitions, Boot App, and Firmware) to its correct field on the webpage, as shown in the picture below/adjacent.
 
