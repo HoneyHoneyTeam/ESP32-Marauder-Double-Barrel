@@ -167,9 +167,11 @@ What is the benefit(s) of runing double Marauder, you may ask. You see, Marauder
 <br/>
 
 ## Our official shop if you would like to support us.  
-1. [Our official site](https://honeyhoneylab.com/)
-2. [Tindie](https://www.tindie.com/stores/honeyhoneytrading/)
-3. ~~[ETSY Shop](https://www.etsy.com/au/shop/HoneyHoneyTrading)~~
+1. [ESP32 Marauder - Double Barrel via Tindie](https://www.tindie.com/products/38768/)
+2. [ESP32 Marauder - Double Barrel 5G direct link via Tindie](https://www.tindie.com/products/39064/)
+3. [Our official site](https://honeyhoneylab.com/)
+4. [Tindie](https://www.tindie.com/stores/honeyhoneytrading/)
+5. ~~[ETSY Shop](https://www.etsy.com/au/shop/HoneyHoneyTrading)~~
 
 <br/>
 
