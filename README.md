@@ -8,7 +8,7 @@
 ![Alt text](Assets/images/front.with.laydown.jpg)
 
 > [!NOTE]
-> - Update: 20 May 2025 by John @ Honey Honey Team
+> - Update: 19 July 2025 by John @ Honey Honey Team, by adding a FAQ section
 > - All procedures and descriptions related to the Flipper Zero herein were validated using Momentum Firmware, version < MNTM-010 30-04-2025 >.
 
 
@@ -186,6 +186,18 @@ To all our clients who purchased items from our shop, whether from Etsy, eBay, T
 <br/>
 
 ## FAQ 
+
+## What if the 2nd Marauder controlled by Flipper Zero keeps flashing 0x********** and load***********?
+
+We’ve noticed that the latest Momentum firmware update (Version 11) may cause the second Marauder (connected via Flipper Zero) to repeatedly flash error messages like 0x********** and load***********.
+
+Based on our current testing, this appears to be a compatibility issue between the ESP32-S2-based Marauder and Momentum. The exact root cause is still unknown, and further investigation is needed.
+
+**Temporary Solution:**
+We recommend downgrading the second Marauder to firmware version 1.21 or 1.61, which have shown better compatibility.
+
+For detailed instructions, please refer to the manual linked below:
+Go to the section “How to upgrade Marauder firmware” → “2nd Set Marauder.”
 
 ## Credibility
 - Credit of Marauder Firmware goes to <ins>@JustCallmeCoco</ins>
