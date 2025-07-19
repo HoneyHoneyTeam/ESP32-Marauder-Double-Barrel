@@ -187,7 +187,7 @@ To all our clients who purchased items from our shop, whether from Etsy, eBay, T
 
 ## FAQ 
 
-## What if the 2nd Marauder controlled by Flipper Zero keeps flashing 0x********** and load***********?
+## What if the 2nd Marauder controlled by Flipper Zero keeps flashing 0x********** and load*********** (update on 19/07/2025)?
 
 We’ve noticed that the latest Momentum firmware update (Version 11) may cause the second Marauder (connected via Flipper Zero) to repeatedly flash error messages like 0x********** and load***********.
 
