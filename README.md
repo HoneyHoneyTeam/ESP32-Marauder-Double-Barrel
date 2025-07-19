@@ -196,6 +196,8 @@ Based on our current testing, this appears to be a compatibility issue between t
 **Temporary Solution:**
 We recommend downgrading the second Marauder to firmware version [1.21](Assets/esp32_marauder_v1_2_1_20250207_flipper.bin) or [1.62](Assets/esp32_marauder_v1_6_2_20250531_flipper.bin), which have shown better compatibility.
 
+Based on our testing, Momentum Version 10 (30-04-2025) works well with Marauder firmware 1.2.1. Results from other combinations are currently a mixed bag.
+
 For detailed instructions, please refer to the manual linked below:
 Go to the section “How to upgrade Marauder firmware” → “2nd Set Marauder.”
 
