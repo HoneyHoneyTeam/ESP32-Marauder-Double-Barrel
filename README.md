@@ -194,7 +194,7 @@ We’ve noticed that the latest Momentum firmware update (Version 11) may cause 
 Based on our current testing, this appears to be a compatibility issue between the ESP32-S2-based Marauder and Momentum. The exact root cause is still unknown, and further investigation is needed.
 
 **Temporary Solution:**
-We recommend downgrading the second Marauder to firmware version 1.21 or 1.61, which have shown better compatibility.
+We recommend downgrading the second Marauder to firmware version [1.21](Assets/esp32_marauder_v1_2_1_20250207_flipper.bin) or [1.62](Assets/esp32_marauder_v1_6_2_20250531_flipper.bin), which have shown better compatibility.
 
 For detailed instructions, please refer to the manual linked below:
 Go to the section “How to upgrade Marauder firmware” → “2nd Set Marauder.”
